@@ -87,6 +87,28 @@ li{
     padding: 10px 0;
 }
 
+/*------------------IMAGES-*******************-*/
+
+.images{
+    background-color: #ecebea;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 60px;
+    padding: 150px;
+}
+.images_img{
+    width: 350px;
+    height: 420px;
+    cursor: pointer;
+    transition: 0.4s;
+}
+
+    .images_img:hover {
+	width: 380px;
+    height: 450px;
+	}
+
 
 /*----------------PROMO------------*/
 
@@ -399,6 +421,14 @@ img.advantages_icon{
 
 .slider_button{
     cursor: pointer;
+}
+
+.slider_images{
+    text-decoration: underline;
+    font-size: 20px;
+    color: #FFF;
+    font-weight: 300;
+    position: absolute;
 }
 
 .swiper {
@@ -734,6 +764,8 @@ img.advantages_icon{
 
 
 
+
+
 /*----------------------------ADAPTIV------------------*/
 
 @media(min-width: 1599px){
@@ -954,9 +986,28 @@ img.advantages_icon{
     }
 
  }
+ 
 
 
 @media (max-width: 800px) {
+
+    .slider_images{
+        top: 750px;
+        left: 20px;
+        font-size: 16px;
+    }
+    .images{
+        gap: 30px;
+    }
+    .images_img{
+        width: 250px;
+        height: 320px;
+    }
+    .images_img:hover{
+        width: 270px;
+        height: 350px;
+    }
+ 
 
     .menu{
         display: none;
@@ -1055,6 +1106,19 @@ img.advantages_icon{
 }
 
 @media (max-width: 620px){
+
+    .slider_images{
+        top: 550px;
+    }
+
+    .images_img {
+        width: 230px;
+        height: 320px;
+    }
+    .images_img:hover {
+        width: 260px;
+        height: 360px;
+    }
 
     .slider_button-wrapper{
         display: none;
@@ -1249,6 +1313,11 @@ img.advantages_icon{
 
 
  @media (max-width: 425px){
+
+    .slider_images{
+        top: 480px;
+        font-size: 14px;
+    }
 
     .menu_mobile.menu_open{
         background-color: rgba(114, 114, 114, 0.9);
@@ -1451,6 +1520,11 @@ img.footer_logo {
 
  }
  @media (max-width: 320px){
+
+    .slider_images {
+        top: 405px;
+        font-size: 12px;
+    }
 
     .title{
         font-size: 30px;
