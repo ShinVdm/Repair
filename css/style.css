@@ -981,6 +981,9 @@ img.advantages_icon{
     .advantages_icons{
         gap: 24px;
     }
+    .swiper{
+        width: 300px;
+    }
     .aboutUs_img {
         max-width: 100%;
         height: 150px;
@@ -1605,15 +1608,3 @@ img.advantages_icon{
     gap: 10px;
     }
  }
-
-
-
-
-
-
-
-
-
-
-
- 
