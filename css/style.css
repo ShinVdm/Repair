@@ -165,14 +165,14 @@ li{
 }
 .subtitle_span{
     display: flex;
-    border: 1px solid  #836F03;
+    border: 1px solid  #FFD700;
     margin: 12px 0px;
 }
 .button_link {
 
     padding: 35px 40px;
     background: linear-gradient(181.04deg, #4A4949 0.89%, rgba(67, 66, 66, 0) 99.11%);
-    border: 2px solid #836F03;
+    border: 2px solid #FFD700;
     border-radius: 50px;
     font-family: 'IM FELL Great Primer';
     font-style: italic;
@@ -1240,7 +1240,7 @@ img.advantages_icon{
       }
       .middle{
         transform: translate(-20px, 39px);
-        width: 111px;
+        width: 800px;
         height: 1px;
         background-color: #afafaf;
       }
@@ -1579,7 +1579,7 @@ img.advantages_icon{
         font-size: 28px;
     }
     .subtitle {
-        font-size: 10px;
+        font-size: 12px;
     }
     .button_link {
         font-size: 12px;
